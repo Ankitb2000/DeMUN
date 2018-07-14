@@ -94,7 +94,8 @@ header {
     background-image: url(img/DEMUN-Logo.png);
     background-size: cover;
     background-position: center;
-    height: 130vh;
+    height: 150vh;
+    padding-bottom: 20px;
 }
 
 .logo {
