@@ -1,0 +1,26 @@
+.matitle {
+    text-align: center;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #00bf96; 
+    padding: 0 375px 0 425px;
+}
+
+table.tableizer-table {
+    margin: 0 auto 0 auto;
+	font-size: 12px;
+	border: 1px solid #CCC; 
+} 
+
+.tableizer-table td {
+	padding: 4px;
+	margin: 3px;
+       text-align: center;
+	border: 1px solid #CCC;
+}
+
+.tableizer-table th {
+	background-color: #5B92E5; 
+	color: #FFF;
+    text-align: center;
+	font-weight: bold;
+}
