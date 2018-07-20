@@ -427,3 +427,20 @@ footer p {
 footer i {
     color: #e44d42;
 }
+
+.resourtitle {
+    margin: 10px 600px 10px 600px;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #00bf96;
+    font-weight: 800;
+    font-size: 200%;
+}
+ 
+.pp p {
+    margin: 0 20px 0 20px;
+    text-align: justify;
+}
+
+.pp h3 {
+    margin: 0 20px 0 20px;
+}
