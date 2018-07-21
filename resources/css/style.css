@@ -22,13 +22,16 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+body {
+    background: #091c3a;
+}
 
 /* ----------------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ----------------------------------------------- */
 
 .row {
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -398,7 +401,7 @@ header {
 footer {
     margin-top: 15px;
     text-align: center;
-    background: #091c3a;
+    background-color: #091c3a;
 }
 
 footer a:link,
@@ -418,6 +421,7 @@ footer a:active {
 }
 
 footer p {
+    background-color: #091c3a;
     color: #fff;
     text-align: center;
     font-size: 80%;
@@ -425,6 +429,7 @@ footer p {
 }
 
 footer i {
+    background-color: #091c3a;
     color: #e44d42;
 }
 
@@ -432,14 +437,59 @@ footer i {
 /* RESOURCES */
 /* ----------------------------------------------- */
 
+.matitle {
+    text-align: center;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #00bf96; 
+    width: 30%;
+    margin: auto;
+}
+
+table.tableizer-table {
+    margin: 0 auto 0 auto;
+	font-size: 12px;
+	border: 1px solid #CCC; 
+} 
+
+.tableizer-table td {
+	padding: 4px;
+	margin: 3px;
+       text-align: center;
+	border: 1px solid #CCC;
+}
+
+.tableizer-table th {
+	background-color: #5B92E5; 
+	color: #FFF;
+    text-align: center;
+	font-weight: bold;
+}
+
+/* ----------------------------------------------- */
+/* RESOURCES */
+/* ----------------------------------------------- */
+
 .resourtitle {
-    margin: 10px 600px 10px 600px;
+    margin: auto;
+    width: 19%;
     text-decoration: underline;
     -webkit-text-decoration-color: #00bf96;
     font-weight: 800;
     font-size: 200%;
 }
- 
+
+.dwntitle {
+    width: 19%;
+    margin: auto;
+}
+
+.dwnldtitle {
+    color: #fff;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #00bf96;
+    text-transform: uppercase;
+}
+
 .pp p {
     margin: 0 20px 0 20px;
     text-align: justify;
