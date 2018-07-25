@@ -445,8 +445,17 @@ footer i {
     margin: auto;
 }
 
+.cmatitle {
+    text-align: center;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #00bf96; 
+    width: 40%;
+    margin-top: 70px;
+    margin: auto;
+}
+
 table.tableizer-table {
-    margin: 0 auto 0 auto;
+    margin: 0 auto 50px auto;
 	font-size: 12px;
 	border: 1px solid #CCC; 
 } 
